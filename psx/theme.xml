@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>9ea1b2</color>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The PlayStation is a 32-bit fifth-generation video game console first released by Sony Computer Entertainment in Japan on December 3, 1994. The PlayStation was the first "computer entertainment platform" to ship 100 million units, which it had reached 9 years and 6 months after its initial launch. In 2000, a re-designed, "slim" version was released, called the PSone. This marked the end of the original grey console.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot2.jpg</path>
+		</image>
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.300 0.300</maxSize>
+		</image>
+	</view>
+
+	<view name="basic, detailed">
+		<image name="border" extra="true">
+			<path>./art/systembg_psx.png</path>
+		</image>
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+	</view>
+	
+</theme>
