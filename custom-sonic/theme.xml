@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>203f92</color>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Sonic Mega Collection</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot2.jpg</path>
+		</image>
+		<image name="logo">
+			<path>./art/systemlogo_sonic.png</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/system.png</path>
+			<maxSize>0.300 0.300</maxSize>
+		</image>
+	</view>
+
+	<view name="basic, detailed">
+		<image name="border" extra="true">
+			<path>./../art/custom/systembg_sonic.png</path>
+		</image>
+		<image name="logo">
+			<path>./art/systemlogo_sonic.png</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/system.png</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+	</view>
+	
+</theme>

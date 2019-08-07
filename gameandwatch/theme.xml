@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>3493f0</color>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Game & Watch is a line of second generation handheld electronic games produced by Nintendo from 1980 to 1991. Each Game & Watch could play only one game as the segmented LCD display was pre-printed with an overlay and its gameplay was limited by the LCD's refresh rate. The handhelds sold very well at 43.4 million units worldwide and convinced other companies such as Tiger Electronics of the popularity of handheld games. The Game & Watch line would be the precursor of various console designs, such as dual screens and clam-shell casing, later used by the Game Boy Advance SP, Nintendo DS, and Nintendo 3DS, and the modern "cross" D-pad design found in gamepads.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot2.jpg</path>
+		</image>
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.300 0.300</maxSize>
+		</image>
+	</view>
+
+	<view name="basic, detailed">
+		<image name="border" extra="true">
+			<path>./../art/systembg_console_univ.png</path>
+		</image>
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+	</view>
+	
+</theme>

@@ -1,0 +1,47 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>fdd403</color>
+		</image>
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>Final Burn Alpha is a Multiple Arcade Emulator most popular for emulating Neo-Geo, Capcom, Konami, and Cave games.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot3.jpg</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.300 0.300</maxSize>
+		</image>
+		<image name="logo">
+			<path>./art/systemlogo_fba.png</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed">
+		<image name="border" extra="true">
+			<path>./art/systembg_fba.png</path>
+		</image>
+		<image name="logo">
+			<path>./art/systemlogo_fba.png</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+	</view>
+	
+</theme>
