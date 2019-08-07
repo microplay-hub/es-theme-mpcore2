@@ -24,3 +24,13 @@ https://icons8.de/
 Wallpapers
 https://www.kisspng.com/free/
 https://wallpapercave.com/
+
+
+# Design Editors
+
+PNG = Gimp, Photoshop
+SVG = CorelDraw
+
+# Scripting Editors
+
+Notepad++
