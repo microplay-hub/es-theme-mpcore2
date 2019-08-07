@@ -7,7 +7,7 @@ Customized for Microplay RetroPie fork
 
 
 
-#Graphics and Arts
+# Graphics and Arts
 
 System-Logos 
 https://github.com/RetroPie/es-theme-carbon
