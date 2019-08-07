@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>e60012</color>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Wii is a seventh-generation home video game console released by Nintendo on November 19, 2006. As of November 2011, the Wii leads the generation over the PlayStation 3 and Xbox 360 in worldwide sales. The Wii is Nintendo's fifth home console and the direct successor of the Nintendo GameCube, being fully backwardly compatible with all GameCube games and most accessories.</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot2.jpg</path>
+		</image>
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+		</image>
+			<maxSize>0.300 0.300</maxSize>
+	</view>
+
+	<view name="basic, detailed">
+		<image name="border" extra="true">
+			<path>./art/systembg_wii.png</path>
+		</image>
+		<image name="logo">
+			<path>./art/system.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+	</view>
+	
+</theme>
