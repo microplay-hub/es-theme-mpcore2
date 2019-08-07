@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>ec6000</color>
+		</image>
+		
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The Atomiswave is a custom arcade system board and cabinet from Sammy Corporation. It is based on Sega's NAOMI system board</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot3.jpg</path>
+		</image>
+		<image name="logo">
+			<path>./art/systemlogo_atomiswave.png</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.300 0.300</maxSize>
+		</image>
+	</view>
+
+	<view name="basic, detailed">
+		<image name="border" extra="true">
+			<path>./art/systembg_atomiswave.png</path>
+		</image>
+		<image name="logo">
+			<path>./art/systemlogo_atomiswave.png</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+			<maxSize>0.150 0.150</maxSize>
+		</image>
+	</view>
+	
+</theme>
